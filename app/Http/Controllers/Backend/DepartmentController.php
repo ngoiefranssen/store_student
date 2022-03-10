@@ -111,9 +111,9 @@ class DepartmentController extends Controller
 
         $validateded_datas = $request->validate(
             [
-                'name' => ['required|max:50'],
-                'faculty_id' => ['required'],
-                'level_id' => ['required'],
+                'name' => 'required|max:50',
+                'faculty_id' => 'required',
+                'level_id' => 'required',
             ],
             [
 

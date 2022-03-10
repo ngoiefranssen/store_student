@@ -18,7 +18,7 @@
         </div>
         <form class="space-y-5 mt-5"  action="{{ route('departments.update', $department->id) }}" method="POST" enctype="multipart/form-data">
             @csrf
-            @method('post')
+            @method('put')
             <div class="mb-4 relative">
                 <input id="name" placeholder="Name" value="{{ $department->name }}" name="name" class="w-full rounded px-3 border border-gray-500 pt-5 pb-2 focus:outline-none input active:outline-none" type="text" autofocus>
 
