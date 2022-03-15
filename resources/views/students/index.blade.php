@@ -17,7 +17,7 @@
     <a href="{{ route('students.create') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4">Add Student</a>
 </div>
 
-<div class="container flex ml-14 mx-auto">
+<div class="container flex justify-center mx-auto my-5">
     <div class="flex flex-col">
         <div class="w-full">
             <div class="border-b border-gray-200 shadow">

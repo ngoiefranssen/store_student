@@ -5,7 +5,7 @@
 <div class="my-12 ml-6">
     <a href="{{ route('departments.create') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3 ml-5">Add Department</a>
 </div>
-<div class="container flex mx-auto ml-12">
+<div class="container flex justify-center mx-auto my-5">
     <div class="flex flex-col">
         <div class="w-full">
             <div class="border-b border-gray-200 shadow">
